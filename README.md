@@ -6,9 +6,3 @@
 ## [GitHub Profile Trophy](https://github.com/ryo-ma/github-profile-trophy)
 ![trophy](https://github-profile-trophy.vercel.app/?username=kojira&theme=onedark)
 
-
-## [GitHub Stats Visualization](https://github.com/jstrieb/github-stats)
-![](https://raw.githubusercontent.com/kojira/github-stats/master/generated/overview.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/kojira/github-stats/master/generated/overview.svg#gh-light-mode-only)
-![](https://raw.githubusercontent.com/kojira/github-stats/master/generated/languages.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/kojira/github-stats/master/generated/languages.svg#gh-light-mode-only)
