@@ -6,6 +6,10 @@
 ## [GitHub Profile Trophy](https://github.com/ryo-ma/github-profile-trophy)
 ![trophy](https://github-profile-trophy.vercel.app/?username=kojira&theme=onedark)
 
+## LAPRAS score
+<!--START_SECTION:lapras-card-->
+<!--END_SECTION:lapras-card-->
+
 ## 過去の活動
 
 - 1995/08〜1998/04 居酒屋の風来坊で接客、調理。調理師免許取る一歩手前までいって取らず。
