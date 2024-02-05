@@ -1,10 +1,13 @@
 ### ᓭᘣᗢ にゃーん
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kojira&hide=html)
-![kojira's github stats](https://github-readme-stats.vercel.app/api?username=kojira&show_icons=true&count_private=true&line_height=40)
+![kojira's github stats](https://github-readme-stats.vercel.app/api?username=kojira&show_icons=true&line_height=24&custom_title=kojira's%20GitHub%20Stats)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kojira&layout=compact&langs_count=8)
 
 ## [GitHub Profile Trophy](https://github.com/ryo-ma/github-profile-trophy)
 ![trophy](https://github-profile-trophy.vercel.app/?username=kojira&theme=onedark)
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 <!--START_SECTION:lapras-card-->
 <p ><a href="https://lapras.com/public/kojira" target="_blank" rel="noopener noreferrer"><img alt="kojiraのLAPRASでのスコアは次の通りです: エンジニアリング: 3.72 / 5.0, ビジネス: 3.48 / 5.0, インフルエンス: 3.9 / 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.72&b=3.48&i=3.9&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=ja" width="400" ></a>  
