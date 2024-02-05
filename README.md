@@ -7,6 +7,79 @@
 ![trophy](https://github-profile-trophy.vercel.app/?username=kojira&theme=onedark)
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-38-blue)
+
+**🐱 My GitHub Data** 
+
+> 📦 ? Used in GitHub's Storage 
+ > 
+> 🏆 35 Contributions in the Year 2024
+ > 
+> 🚫 Not Opted to Hire
+ > 
+> 📜 43 Public Repositories 
+ > 
+> 🔑 0 Private Repositories 
+ > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                121 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.83 % 
+🌆 Daytime                311 commits         ██████████░░░░░░░░░░░░░░░   38.11 % 
+🌃 Evening                184 commits         ██████░░░░░░░░░░░░░░░░░░░   22.55 % 
+🌙 Night                  200 commits         ██████░░░░░░░░░░░░░░░░░░░   24.51 % 
+```
+📅 **I'm Most Productive on Friday** 
+
+```text
+Monday                   70 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.58 % 
+Tuesday                  111 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.60 % 
+Wednesday                152 commits         █████░░░░░░░░░░░░░░░░░░░░   18.63 % 
+Thursday                 145 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.77 % 
+Friday                   179 commits         █████░░░░░░░░░░░░░░░░░░░░   21.94 % 
+Saturday                 72 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.82 % 
+Sunday                   87 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.66 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Tokyo
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+```
+
+**I Mostly Code in Python** 
+
+```text
+Python                   20 repos            ███████████░░░░░░░░░░░░░░   45.45 % 
+TypeScript               4 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
+Rust                     2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
+Dart                     1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   02.27 % 
+CSS                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   02.27 % 
+```
+
+
+
+**Timeline**
+
+![Lines of Code chart](https://raw.githubusercontent.com/kojira/kojira/main/assets/bar_graph.png)
+
+
+ Last Updated on 05/02/2024 09:37:05 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:lapras-card-->
