@@ -7,7 +7,7 @@
 ![trophy](https://github-profile-trophy.vercel.app/?username=kojira&theme=onedark)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-57-blue)
 
@@ -15,11 +15,11 @@
 
 > 📦 ? Used in GitHub's Storage 
  > 
-> 🏆 57 Contributions in the Year 2024
+> 🏆 58 Contributions in the Year 2024
  > 
 > 🚫 Not Opted to Hire
  > 
-> 📜 44 Public Repositories 
+> 📜 45 Public Repositories 
  > 
 > 🔑 0 Private Repositories 
  > 
@@ -50,19 +50,22 @@ Sunday                   87 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Tokyo
 
 💬 Programming Languages: 
-YAML                     3 mins              ███████████████████░░░░░░   74.13 % 
-Python                   1 min               ██████░░░░░░░░░░░░░░░░░░░   24.77 % 
-Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.10 % 
+Rust                     5 hrs 50 mins       ███████████████████████░░   90.20 % 
+TOML                     25 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.48 % 
+YAML                     9 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.39 % 
+Text                     2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.59 % 
+Python                   1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.29 % 
 
 🔥 Editors: 
-VS Code                  4 mins              █████████████████████████   100.00 % 
+VS Code                  6 hrs 28 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-nostr-chan               3 mins              ███████████████████░░░░░░   75.23 % 
-nostr-summary-bot        1 min               ██████░░░░░░░░░░░░░░░░░░░   24.77 % 
+nostr-chan               5 hrs 51 mins       ███████████████████████░░   90.60 % 
+bolt11-rust              35 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.11 % 
+nostr-summary-bot        1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.29 % 
 
 💻 Operating System: 
-Mac                      4 mins              █████████████████████████   100.00 % 
+Mac                      6 hrs 28 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -82,7 +85,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/kojira/kojira/main/assets/bar_graph.png)
 
 
- Last Updated on 17/02/2024 18:34:58 UTC
+ Last Updated on 18/02/2024 18:35:07 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:lapras-card-->
