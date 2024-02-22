@@ -7,9 +7,9 @@
 ![trophy](https://github-profile-trophy.vercel.app/?username=kojira&theme=onedark)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-10%20hrs%2030%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-10%20hrs%2031%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-4-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue)
 
 **🐱 My GitHub Data** 
 
@@ -50,17 +50,18 @@ Sunday                   105 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Tokyo
 
 💬 Programming Languages: 
-Rust                     8 hrs 36 mins       ████████████████████░░░░░   81.90 % 
+Rust                     8 hrs 36 mins       ████████████████████░░░░░   81.88 % 
 Python                   26 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.17 % 
 TOML                     25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.99 % 
 Markdown                 23 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.65 % 
 Docker                   14 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.28 % 
 
 🔥 Editors: 
-VS Code                  10 hrs 30 mins      █████████████████████████   100.00 % 
+VS Code                  10 hrs 30 mins      █████████████████████████   99.98 % 
+Sublime Text             0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
 
 🐱‍💻 Projects: 
-nostr-chan               9 hrs 11 mins       ██████████████████████░░░   87.46 % 
+nostr-chan               9 hrs 11 mins       ██████████████████████░░░   87.44 % 
 clone-dev                36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.73 % 
 bolt11-rust              35 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.61 % 
 nostr-summary-bot        7 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.15 % 
@@ -87,7 +88,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/kojira/kojira/main/assets/bar_graph.png)
 
 
- Last Updated on 21/02/2024 18:35:07 UTC
+ Last Updated on 22/02/2024 18:35:27 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:lapras-card-->
