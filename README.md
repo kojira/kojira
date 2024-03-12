@@ -50,20 +50,16 @@ Sunday                   105 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Tokyo
 
 💬 Programming Languages: 
-Bash                     21 mins             █████████░░░░░░░░░░░░░░░░   35.13 % 
-YAML                     21 mins             █████████░░░░░░░░░░░░░░░░   34.32 % 
-Other                    17 mins             ███████░░░░░░░░░░░░░░░░░░   29.31 % 
-CSV                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.96 % 
-Docker                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.26 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  1 hr 1 min          █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-nostr-chan               1 hr 1 min          █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Mac                      1 hr 1 min          █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Python** 
@@ -83,7 +79,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/kojira/kojira/main/assets/bar_graph.png)
 
 
- Last Updated on 11/03/2024 18:35:15 UTC
+ Last Updated on 12/03/2024 18:35:18 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:lapras-card-->
