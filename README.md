@@ -7,7 +7,7 @@
 ![trophy](https://github-profile-trophy.vercel.app/?username=kojira&theme=onedark)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-16%20hrs%204%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-16%20hrs%2044%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
 
@@ -68,11 +68,11 @@ Mac                      40 mins             ███████████�
 **I Mostly Code in Python** 
 
 ```text
-Python                   20 repos            ████████████░░░░░░░░░░░░░   46.51 % 
-TypeScript               3 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.98 % 
-Rust                     2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.65 % 
-Dart                     1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   02.33 % 
-CSS                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   02.33 % 
+Python                   20 repos            ████████████░░░░░░░░░░░░░   47.62 % 
+TypeScript               3 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   07.14 % 
+Rust                     2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.76 % 
+Dart                     1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   02.38 % 
+CSS                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   02.38 % 
 ```
 
 
@@ -82,7 +82,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/kojira/kojira/main/assets/bar_graph.png)
 
 
- Last Updated on 15/03/2024 18:35:02 UTC
+ Last Updated on 16/03/2024 18:35:31 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:lapras-card-->
