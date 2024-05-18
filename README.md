@@ -7,15 +7,13 @@
 ![trophy](https://github-profile-trophy.vercel.app/?username=kojira&theme=onedark)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-68%20hrs%2025%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-68%20hrs%2031%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 ? Used in GitHub's Storage 
- > 
-> 🏆 217 Contributions in the Year 2024
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -50,19 +48,19 @@ Sunday                   107 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Tokyo
 
 💬 Programming Languages: 
-Python                   16 mins             ████████████████████░░░░░   80.92 % 
-HTML                     3 mins              █████░░░░░░░░░░░░░░░░░░░░   19.08 % 
+Python                   14 mins             ████████████████████░░░░░   79.27 % 
+HTML                     3 mins              █████░░░░░░░░░░░░░░░░░░░░   20.73 % 
 
 🔥 Editors: 
-VS Code                  16 mins             ████████████████████░░░░░   80.92 % 
-Sublime Text             3 mins              █████░░░░░░░░░░░░░░░░░░░░   19.08 % 
+VS Code                  14 mins             ████████████████████░░░░░   79.27 % 
+Sublime Text             3 mins              █████░░░░░░░░░░░░░░░░░░░░   20.73 % 
 
 🐱‍💻 Projects: 
-nostr-summary-bot        16 mins             ████████████████████░░░░░   80.92 % 
-Unknown Project          3 mins              █████░░░░░░░░░░░░░░░░░░░░   19.08 % 
+nostr-summary-bot        14 mins             ████████████████████░░░░░   79.27 % 
+Unknown Project          3 mins              █████░░░░░░░░░░░░░░░░░░░░   20.73 % 
 
 💻 Operating System: 
-Mac                      19 mins             █████████████████████████   100.00 % 
+Mac                      18 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -82,7 +80,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/kojira/kojira/main/assets/bar_graph.png)
 
 
- Last Updated on 17/05/2024 18:36:15 UTC
+ Last Updated on 18/05/2024 18:35:07 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:lapras-card-->
