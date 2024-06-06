@@ -7,7 +7,7 @@
 ![trophy](https://github-profile-trophy.vercel.app/?username=kojira&theme=onedark)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-69%20hrs%201%20min-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-69%20hrs%2014%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -48,20 +48,16 @@ Sunday                   107 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Tokyo
 
 💬 Programming Languages: 
-Python                   12 mins             ████████████████░░░░░░░░░   64.50 % 
-Docker                   4 mins              ██████░░░░░░░░░░░░░░░░░░░   22.34 % 
-Rust                     2 mins              ███░░░░░░░░░░░░░░░░░░░░░░   13.16 % 
+Python                   12 mins             █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Sublime Text             12 mins             ████████████████░░░░░░░░░   64.50 % 
-VS Code                  7 mins              █████████░░░░░░░░░░░░░░░░   35.50 % 
+Sublime Text             12 mins             █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-Unknown Project          12 mins             ████████████████░░░░░░░░░   64.50 % 
-nostr-quest              7 mins              █████████░░░░░░░░░░░░░░░░   35.50 % 
+Unknown Project          12 mins             █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Mac                      20 mins             █████████████████████████   100.00 % 
+Mac                      12 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -81,7 +77,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/kojira/kojira/main/assets/bar_graph.png)
 
 
- Last Updated on 05/06/2024 18:36:29 UTC
+ Last Updated on 06/06/2024 18:36:18 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:lapras-card-->
