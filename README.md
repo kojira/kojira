@@ -7,15 +7,13 @@
 ![trophy](https://github-profile-trophy.vercel.app/?username=kojira&theme=onedark)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-69%20hrs%2041%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-69%20hrs%2043%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 ? Used in GitHub's Storage 
- > 
-> 🏆 244 Contributions in the Year 2024
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -50,20 +48,19 @@ Sunday                   107 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Tokyo
 
 💬 Programming Languages: 
-Rust                     27 mins             ████████████████░░░░░░░░░   65.03 % 
-Python                   12 mins             ████████░░░░░░░░░░░░░░░░░   30.19 % 
-JavaScript               2 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.78 % 
+Rust                     27 mins             ███████████████████████░░   93.16 % 
+JavaScript               2 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.84 % 
 
 🔥 Editors: 
-VS Code                  27 mins             ████████████████░░░░░░░░░   65.03 % 
-Sublime Text             14 mins             █████████░░░░░░░░░░░░░░░░   34.97 % 
+VS Code                  27 mins             ███████████████████████░░   93.16 % 
+Sublime Text             2 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.84 % 
 
 🐱‍💻 Projects: 
-nostr-chan               27 mins             ████████████████░░░░░░░░░   65.03 % 
-Unknown Project          14 mins             █████████░░░░░░░░░░░░░░░░   34.97 % 
+nostr-chan               27 mins             ███████████████████████░░   93.16 % 
+Unknown Project          2 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.84 % 
 
 💻 Operating System: 
-Mac                      42 mins             █████████████████████████   100.00 % 
+Mac                      29 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -83,7 +80,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/kojira/kojira/main/assets/bar_graph.png)
 
 
- Last Updated on 11/06/2024 18:37:19 UTC
+ Last Updated on 12/06/2024 18:37:11 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:lapras-card-->
