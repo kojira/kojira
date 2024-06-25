@@ -15,8 +15,6 @@
 
 > 📦 ? Used in GitHub's Storage 
  > 
-> 🏆 268 Contributions in the Year 2024
- > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 49 Public Repositories 
@@ -81,7 +79,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/kojira/kojira/main/assets/bar_graph.png)
 
 
- Last Updated on 24/06/2024 18:36:48 UTC
+ Last Updated on 25/06/2024 18:37:19 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:lapras-card-->
