@@ -7,13 +7,15 @@
 ![trophy](https://github-profile-trophy.vercel.app/?username=kojira&theme=onedark)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-74%20hrs%2058%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-75%20hrs%2056%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 ? Used in GitHub's Storage 
+ > 
+> 🏆 365 Contributions in the Year 2024
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -48,20 +50,21 @@ Sunday                   125 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Tokyo
 
 💬 Programming Languages: 
-Python                   1 hr 10 mins        █████████████████████░░░░   84.92 % 
-Rust                     12 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.04 % 
+Python                   1 hr 11 mins        █████████████████████░░░░   85.09 % 
+Rust                     12 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.88 % 
 CSV                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 % 
 
 🔥 Editors: 
-Sublime Text             1 hr 10 mins        █████████████████████░░░░   84.92 % 
-VS Code                  12 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.08 % 
+Sublime Text             1 hr 11 mins        █████████████████████░░░░   84.39 % 
+VS Code                  13 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.61 % 
 
 🐱‍💻 Projects: 
-Unknown Project          1 hr 10 mins        █████████████████████░░░░   84.92 % 
-nostr-chan               12 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.08 % 
+Unknown Project          1 hr 11 mins        █████████████████████░░░░   84.39 % 
+nostr-chan               12 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.91 % 
+nostr-summary-bot        0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.70 % 
 
 💻 Operating System: 
-Mac                      1 hr 23 mins        █████████████████████████   100.00 % 
+Mac                      1 hr 24 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -81,7 +84,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/kojira/kojira/main/assets/bar_graph.png)
 
 
- Last Updated on 21/07/2024 18:36:14 UTC
+ Last Updated on 22/07/2024 18:38:01 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:lapras-card-->
