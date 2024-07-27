@@ -7,15 +7,13 @@
 ![trophy](https://github-profile-trophy.vercel.app/?username=kojira&theme=onedark)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-82%20hrs%2042%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-85%20hrs%2035%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 ? Used in GitHub's Storage 
- > 
-> 🏆 365 Contributions in the Year 2024
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -87,7 +85,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/kojira/kojira/main/assets/bar_graph.png)
 
 
- Last Updated on 26/07/2024 18:36:31 UTC
+ Last Updated on 27/07/2024 18:36:32 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:lapras-card-->
