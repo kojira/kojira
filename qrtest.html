@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRコードリーダー</title>
+    <style>
+        video {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            display: block;
+        }
+        canvas {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>QRコードをスキャンしてください</h1>
+    <video id="video"></video>
+    <canvas id="canvas"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
+    <script>
+        const video = document.getElementById('video');
+        const canvas = document.getElementById('canvas');
+        const context = canvas.getContext('2d');
+
+        // Webカメラのストリームを取得
+        navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } }).then(function(stream) {
+            video.srcObject = stream;
+            video.play();
+        });
+
+        // QRコードの読み取り処理
+        video.addEventListener('play', function() {
+            const drawInterval = setInterval(function() {
+                if (video.readyState === video.HAVE_ENOUGH_DATA) {
+                    // Canvasにビデオのフレームを描画
+                    canvas.width = video.videoWidth;
+                    canvas.height = video.videoHeight;
+                    context.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+                    // QRコードをデコード
+                    const imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+                    const code = jsQR(imageData.data, imageData.width, imageData.height);
+
+                    if (code) {
+                        clearInterval(drawInterval);
+                        // QRコード内のURLを新しいページで開く
+                        window.open(code.data, '_blank');
+                    }
+                }
+            }, 100);
+        });
+    </script>
+</body>
+</html>
