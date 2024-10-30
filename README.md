@@ -76,3 +76,9 @@ Last Updated on 10/30/2024, 12:16:47 AM</p>
 - 2023/06/14 interop 2023 APPS JAPANで分散SNSについて講演
 - 2023/07/07 Nostr創始者のfiatjafよりNostrへの貢献が認められて[500万satoshiをもらう](https://habla.news/ja/a/naddr1qqyxvepkv33nxdmrqyf8wumn8ghj7ur4wfcxcetsv9njuetnqyxhwumn8ghj7mn0wvhxcmmvqy08wumn8ghj7mn0wd68yttjv4kxz7fwdehkkmm5v9ex7tnrdakszynhwden5te0danxvcmgv95kutnsw43qz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcpzpmhxue69uhkummnw3ezuamfdejsygpm7rrrljungc6q0tuh5hj7ue863q73qlheu4vywtzwhx42a7j9n5psgqqqw4rs046wal)
 - 2023/11/01 [Nostrasia 1日目で登壇](https://www.youtube.com/watch?v=l-lP01IbV_Y)
+- 2023/12/08 [新時代の分散型SNS勉強会](https://428lab.connpass.com/event/300313/)の運営、ライブ配信担当
+- 2024/02/10 [ゴリラ.vim #30 ~ 四谷ラボコラボ ~](https://gorillavim.connpass.com/event/307622/)の運営、ライブ配信担当
+- 2024/04/13 [Bluesky Meetup in Tokyo Vol.2](https://428lab.connpass.com/event/312335/)の運営、ライブ配信担当
+- 2024/04/14 [Bluesky Meetup in Osaka Vol.2](https://428lab.connpass.com/event/313710/)の運営、ライブ配信担当
+- 2024/09/23 [Nostrasia 2024](https://428lab.connpass.com/event/326207/)の運営、ライブ配信担当
+- 2024/10/11 [Bluesky Meetup in Tokyo Vol.3](https://428lab.connpass.com/event/331611/)の運営、ライブ配信担当
