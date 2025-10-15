@@ -74,7 +74,7 @@ Last Updated on 10/15/2025, 12:18:44 AM</p>
 - 2023/04/07 [世界初のBluesky meetup](https://428lab.connpass.com/event/279572/)を開催
 - 2023/05/21 技術書典 2023に世界初のNostrの技術本「[Hello Nostr! 先住民が教えるNostrの歩き方](https://techbookfest.org/product/veGeNq1tNkYFfWnZWgEC72?productVariantID=u5RZNM5e77xHH97c65PCx9)」を出展。
 - 2023/06/14 interop 2023 APPS JAPANで分散SNSについて講演
-- 2023/07/07 Nostr創始者のfiatjafよりNostrへの貢献が認められて[500万satoshiをもらう](https://habla.news/ja/a/naddr1qqyxvepkv33nxdmrqyf8wumn8ghj7ur4wfcxcetsv9njuetnqyxhwumn8ghj7mn0wvhxcmmvqy08wumn8ghj7mn0wd68yttjv4kxz7fwdehkkmm5v9ex7tnrdakszynhwden5te0danxvcmgv95kutnsw43qz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcpzpmhxue69uhkummnw3ezuamfdejsygpm7rrrljungc6q0tuh5hj7ue863q73qlheu4vywtzwhx42a7j9n5psgqqqw4rs046wal)
+- 2023/07/07 Nostr創始者のfiatjafよりNostrへの貢献が認められて[500万satoshiをもらう](https://yakihonne.com/article/naddr1qqyxvepkv33nxdmrqyf8wumn8ghj7ur4wfcxcetsv9njuetnqyxhwumn8ghj7mn0wvhxcmmvqy08wumn8ghj7mn0wd68yttjv4kxz7fwdehkkmm5v9ex7tnrdakszynhwden5te0danxvcmgv95kutnsw43qz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcpzpmhxue69uhkummnw3ezuamfdejsygpm7rrrljungc6q0tuh5hj7ue863q73qlheu4vywtzwhx42a7j9n5psgqqqw4rs046wal)
 - 2023/11/01 [Nostrasia 1日目で登壇](https://www.youtube.com/watch?v=l-lP01IbV_Y)
 - 2023/12/08 [新時代の分散型SNS勉強会](https://428lab.connpass.com/event/300313/)の運営、ライブ配信担当
 - 2024/02/10 [ゴリラ.vim #30 ~ 四谷ラボコラボ ~](https://gorillavim.connpass.com/event/307622/)の運営、ライブ配信担当
