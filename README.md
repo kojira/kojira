@@ -87,5 +87,5 @@ Last Updated on 11/26/2025, 12:19:45 AM</p>
 - 2025/06/12 interop 2025 APPS JAPAN：[Webの未来と自動化の行方：AI時代の“働く”と“つくる”を語る](https://forest.f2ff.jp/introduction/10475?project_id=20250601)で登壇
 - 2025/06/28 [Bluesky Meetup in Osaka vol.3](https://428lab.connpass.com/event/355011/)の運営、アイディアソン司会担当
 - 2025/07/16 [第18回 GenAI 勉強会](https://gais.jp/gais18-digest/)で登壇
-- 2025/06/28 [Bluesky Meetup in Fukuoka vol.2](https://428lab.connpass.com/event/360000/)の運営
+- 2025/08/02 [Bluesky Meetup in Fukuoka vol.2](https://428lab.connpass.com/event/360000/)の運営
 - 2025/11/22 [Nostrasia 2025](https://nostrasia.com/)の発起人、運営、ライブ配信担当
