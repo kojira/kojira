@@ -80,10 +80,12 @@ Last Updated on 11/26/2025, 12:19:45 AM</p>
 - 2024/02/10 [ゴリラ.vim #30 ~ 四谷ラボコラボ ~](https://gorillavim.connpass.com/event/307622/)の運営、ライブ配信担当
 - 2024/04/13 [Bluesky Meetup in Tokyo Vol.2](https://428lab.connpass.com/event/312335/)の運営、ライブ配信担当
 - 2024/04/14 [Bluesky Meetup in Osaka Vol.2](https://428lab.connpass.com/event/313710/)の運営、ライブ配信担当
-- 2024/09/23 [Nostrasia 2024](https://428lab.connpass.com/event/326207/)の運営、ライブ配信担当
+- 2024/09/23 [Nostrasia 2024](https://428lab.connpass.com/event/326207/)の発起人、運営、ライブ配信担当
 - 2024/10/11 [Bluesky Meetup in Tokyo Vol.3](https://428lab.connpass.com/event/331611/)の運営、ライブ配信担当
 - 2025/05/31 [ゴリラ.vim #36 ~ Vim x SNS ~](https://gorillavim.connpass.com/event/353161/)の運営、登壇、ライブ配信担当
 - 2025/06/11 interop 2025 APPS JAPAN：[生成AIで変わる開発現場：プログラマーの仕事はどう変わるのか？](https://forest.f2ff.jp/introduction/10467?project_id=20250601)で登壇
 - 2025/06/12 interop 2025 APPS JAPAN：[Webの未来と自動化の行方：AI時代の“働く”と“つくる”を語る](https://forest.f2ff.jp/introduction/10475?project_id=20250601)で登壇
 - 2025/06/28 [Bluesky Meetup in Osaka vol.3](https://428lab.connpass.com/event/355011/)の運営、アイディアソン司会担当
 - 2025/07/16 [第18回 GenAI 勉強会](https://gais.jp/gais18-digest/)で登壇
+- 2025/06/28 [Bluesky Meetup in Fukuoka vol.2](https://428lab.connpass.com/event/360000/)の運営
+- 2025/11/22 [Nostrasia 2025](https://nostrasia.com/)の発起人、運営、ライブ配信担当
