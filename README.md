@@ -89,3 +89,6 @@ Last Updated on 2/1/2026, 12:30:07 AM</p>
 - 2025/07/16 [第18回 GenAI 勉強会](https://gais.jp/gais18-digest/)で登壇
 - 2025/08/02 [Bluesky Meetup in Fukuoka vol.2](https://428lab.connpass.com/event/360000/)の運営
 - 2025/11/22 [Nostrasia 2025](https://nostrasia.com/)の発起人、運営、ライブ配信担当
+- 2025/11/26 [AIプロトコル勉強会 No.1](https://428lab.connpass.com/event/374766/)の運営、司会、ライブ配信担当
+- 2026/01/15 [AIプロトコル勉強会 No.2](https://428lab.connpass.com/event/380108/)の運営
+- 2026/01/31 [バイブコーディング大会 No.1](https://428lab.connpass.com/event/382139/)の運営、司会
