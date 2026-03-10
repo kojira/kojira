@@ -1,5 +1,7 @@
 ### ᓭᘣᗢ にゃーん
 
+![kojira's GitHub stats](https://github-readme-stats.vercel.app/api?username=kojira&show_icons=true&theme=radical)
+
 ![kojira's github stats](https://github-readme-stats.vercel.app/api?username=kojira&show_icons=true&line_height=24&custom_title=kojira's%20GitHub%20Stats)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kojira&layout=compact&langs_count=8)
 
@@ -92,3 +94,4 @@ Last Updated on 3/10/2026, 12:23:35 AM</p>
 - 2025/11/26 [AIプロトコル勉強会 No.1](https://428lab.connpass.com/event/374766/)の運営、司会、登壇、ライブ配信担当
 - 2026/01/15 [AIプロトコル勉強会 No.2](https://428lab.connpass.com/event/380108/)の運営、登壇
 - 2026/01/31 [バイブコーディング大会 No.1](https://428lab.connpass.com/event/382139/)の運営、司会
+- 2026/03/01 [bitchatで都内ロングレンジ通信やってみる会](https://428lab.connpass.com/event/384566/)の企画、運営
