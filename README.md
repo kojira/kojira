@@ -1,9 +1,10 @@
 ### ᓭᘣᗢ にゃーん
 
-![kojira's GitHub stats](https://github-readme-stats.vercel.app/api?username=kojira&show_icons=true&theme=radical)
-
-![kojira's github stats](https://github-readme-stats.vercel.app/api?username=kojira&show_icons=true&line_height=24&custom_title=kojira's%20GitHub%20Stats)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kojira&layout=compact&langs_count=8)
+<p align="center">
+  <img src="assets/stats.gif" alt="kojira's GitHub Stats" width="495" />
+  <br/>
+  <img src="assets/top-langs.gif" alt="Top Languages" width="495" />
+</p>
 
 ## [GitHub Profile Trophy](https://github.com/ryo-ma/github-profile-trophy)
 ![trophy](https://github-profile-trophy.vercel.app/?username=kojira&theme=onedark)
@@ -86,7 +87,7 @@ Last Updated on 3/12/2026, 12:22:28 AM</p>
 - 2024/10/11 [Bluesky Meetup in Tokyo Vol.3](https://428lab.connpass.com/event/331611/)の運営、ライブ配信担当
 - 2025/05/31 [ゴリラ.vim #36 ~ Vim x SNS ~](https://gorillavim.connpass.com/event/353161/)の運営、登壇、ライブ配信担当
 - 2025/06/11 interop 2025 APPS JAPAN：[生成AIで変わる開発現場：プログラマーの仕事はどう変わるのか？](https://forest.f2ff.jp/introduction/10467?project_id=20250601)で登壇
-- 2025/06/12 interop 2025 APPS JAPAN：[Webの未来と自動化の行方：AI時代の“働く”と“つくる”を語る](https://forest.f2ff.jp/introduction/10475?project_id=20250601)で登壇
+- 2025/06/12 interop 2025 APPS JAPAN：[Webの未来と自動化の行方：AI時代の"働く"と"つくる"を語る](https://forest.f2ff.jp/introduction/10475?project_id=20250601)で登壇
 - 2025/06/28 [Bluesky Meetup in Osaka vol.3](https://428lab.connpass.com/event/355011/)の運営、アイディアソン司会担当
 - 2025/07/16 [第18回 GenAI 勉強会](https://gais.jp/gais18-digest/)で登壇
 - 2025/08/02 [Bluesky Meetup in Fukuoka vol.2](https://428lab.connpass.com/event/360000/)の運営
