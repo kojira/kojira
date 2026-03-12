@@ -158,15 +158,18 @@ function buildResult(data, { includePrivate = true } = {}) {
     .map(([name, { size, color }]) => ({
       name,
       color,
+      bytes: size,
       percentage: Math.round((size / totalSize) * 1000) / 10,
     }));
 
   // If top languages don't sum to 100%, add "Others"
+  const topBytes = languages.reduce((sum, lang) => sum + lang.bytes, 0);
   const topSum = languages.reduce((s, l) => s + l.percentage, 0);
   if (topSum < 100) {
     languages.push({
       name: 'Others',
       color: '#6e7681',
+      bytes: totalSize - topBytes,
       percentage: Math.round((100 - topSum) * 10) / 10,
     });
   }

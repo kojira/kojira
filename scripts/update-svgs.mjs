@@ -9,6 +9,12 @@ function formatNumber(n) {
   return n >= 1000 ? n.toLocaleString('en-US') : String(n);
 }
 
+function formatBytes(b) {
+  if (b >= 1000000) return (b / 1000000).toFixed(1) + 'MB';
+  if (b >= 1000) return (b / 1000).toFixed(1) + 'KB';
+  return b + 'B';
+}
+
 function generateStatsSvg(stats) {
   let statsSvg = readFileSync(resolve(rootDir, 'templates/stats.svg'), 'utf-8');
 
@@ -57,7 +63,7 @@ function generateStatsSvg(stats) {
 }
 
 function generateTopLangsSvg(stats) {
-  const BAR_MAX_WIDTH = 220;
+  const BAR_MAX_WIDTH = 150;
   const barClasses = ['bar-ts', 'bar-rs', 'bar-py', 'bar-js', 'bar-ot'];
 
   let langsSvg = readFileSync(resolve(rootDir, 'templates/top-langs.svg'), 'utf-8');
@@ -79,8 +85,8 @@ function generateTopLangsSvg(stats) {
             font-size="12" fill="#c9d1d9">${lang.name}</text>
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">${lang.percentage}%</text>
-      <rect x="170" y="-9" width="220" height="10" rx="5" fill="#21262d" />
+            font-size="12" font-weight="600" fill="#8b949e">${lang.percentage}% (${formatBytes(lang.bytes)})</text>
+      <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
       <rect x="170" y="-9" width="${barWidth}" height="10" rx="5" fill="${lang.color}" class="${barClass}" opacity="0.9" />
     </g>`;
   }).join('\n\n');

@@ -43,10 +43,10 @@ async function renderGif(browser, svgPath, gifPath) {
   const DURATION = 4000;
   const FRAME_COUNT = DURATION / FRAME_INTERVAL;
 
-  const encoder = new GIFEncoder(width, height);
+  const encoder = new GIFEncoder(width, height, "octree", false, FRAME_COUNT);
   encoder.setDelay(FRAME_INTERVAL);
   encoder.setRepeat(0);
-  encoder.setQuality(10);
+  encoder.setQuality(1);
   encoder.start();
 
   console.log(`${svgPath}: capturing ${FRAME_COUNT} frames...`);
