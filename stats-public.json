@@ -1,0 +1,46 @@
+{
+  "totalStars": 63,
+  "commits": 696,
+  "prs": 283,
+  "issues": 208,
+  "reviews": 0,
+  "followers": 66,
+  "contributedTo": 20,
+  "rank": {
+    "level": "A",
+    "score": 0.7485941401671515
+  },
+  "year": 2026,
+  "languages": [
+    {
+      "name": "Python",
+      "color": "#3572A5",
+      "percentage": 36.9
+    },
+    {
+      "name": "TypeScript",
+      "color": "#3178c6",
+      "percentage": 27.6
+    },
+    {
+      "name": "C++",
+      "color": "#f34b7d",
+      "percentage": 9.2
+    },
+    {
+      "name": "JavaScript",
+      "color": "#f1e05a",
+      "percentage": 7.9
+    },
+    {
+      "name": "CoffeeScript",
+      "color": "#244776",
+      "percentage": 4.8
+    },
+    {
+      "name": "Others",
+      "color": "#6e7681",
+      "percentage": 13.6
+    }
+  ]
+}

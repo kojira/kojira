@@ -1,3 +1,10 @@
+import { writeFileSync, mkdirSync } from 'fs';
+import { resolve, dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const rootDir = resolve(__dirname, '..');
+
 const TOKEN = process.env.GH_TOKEN;
 if (!TOKEN) {
   console.error('GH_TOKEN is required');
@@ -5,7 +12,6 @@ if (!TOKEN) {
 }
 
 const USERNAME = 'kojira';
-const currentYear = new Date().getUTCFullYear();
 
 async function graphql(query, variables = {}) {
   const res = await fetch('https://api.github.com/graphql', {
@@ -23,13 +29,16 @@ async function graphql(query, variables = {}) {
 }
 
 // Fetch user stats
-const statsQuery = `
+function buildStatsQuery(privacy) {
+  const privacyFilter = privacy ? `, privacy: ${privacy}` : '';
+  return `
 query($login: String!, $from: DateTime!, $to: DateTime!) {
   user(login: $login) {
     followers { totalCount }
-    repositories(first: 100, ownerAffiliations: OWNER, orderBy: {field: STARGAZERS, direction: DESC}) {
+    repositories(first: 100, ownerAffiliations: OWNER${privacyFilter}, orderBy: {field: STARGAZERS, direction: DESC}) {
       totalCount
       nodes {
+        name
         stargazerCount
         languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
           edges {
@@ -52,47 +61,6 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
     repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, ISSUE, PULL_REQUEST]) { totalCount }
   }
 }`;
-
-const from = `${currentYear}-01-01T00:00:00Z`;
-const to = new Date().toISOString();
-
-const data = await graphql(statsQuery, { login: USERNAME, from, to });
-const user = data.user;
-const contrib = user.contributionsCollection;
-
-// Total stars
-const totalStars = user.repositories.nodes.reduce((sum, r) => sum + r.stargazerCount, 0);
-
-// Aggregate languages
-const langMap = new Map();
-for (const repo of user.repositories.nodes) {
-  for (const edge of repo.languages.edges) {
-    const name = edge.node.name;
-    const existing = langMap.get(name) || { size: 0, color: edge.node.color || '#6e7681' };
-    existing.size += edge.size;
-    langMap.set(name, existing);
-  }
-}
-langMap.delete('Jupyter Notebook');
-
-const totalSize = [...langMap.values()].reduce((s, l) => s + l.size, 0);
-const languages = [...langMap.entries()]
-  .sort((a, b) => b[1].size - a[1].size)
-  .slice(0, 5)
-  .map(([name, { size, color }]) => ({
-    name,
-    color,
-    percentage: Math.round((size / totalSize) * 1000) / 10,
-  }));
-
-// If top languages don't sum to 100%, add "Others"
-const topSum = languages.reduce((s, l) => s + l.percentage, 0);
-if (topSum < 100) {
-  languages.push({
-    name: 'Others',
-    color: '#6e7681',
-    percentage: Math.round((100 - topSum) * 10) / 10,
-  });
 }
 
 // --- Rank calculation ---
@@ -162,30 +130,89 @@ function calculateRank({ commits, prs, issues, reviews, stars, followers }) {
   return { level, score: normalizedScore };
 }
 
-const commits = contrib.totalCommitContributions + contrib.restrictedContributionsCount;
-const reviews = contrib.totalPullRequestReviewContributions;
-const followers = user.followers.totalCount;
+function buildResult(data, { includePrivate = true } = {}) {
+  const user = data.user;
+  const contrib = user.contributionsCollection;
 
-const rank = calculateRank({
-  commits,
-  prs: user.pullRequests.totalCount,
-  issues: user.issues.totalCount,
-  reviews,
-  stars: totalStars,
-  followers,
-});
+  // Total stars
+  const totalStars = user.repositories.nodes.reduce((sum, r) => sum + r.stargazerCount, 0);
 
-const result = {
-  totalStars,
-  commits,
-  prs: user.pullRequests.totalCount,
-  issues: user.issues.totalCount,
-  reviews,
-  followers,
-  contributedTo: user.repositoriesContributedTo.totalCount,
-  rank,
-  year: currentYear,
-  languages,
-};
+  // Aggregate languages
+  const EXCLUDE_REPOS = ['duelyst'];
+  const langMap = new Map();
+  for (const repo of user.repositories.nodes) {
+    if (EXCLUDE_REPOS.includes(repo.name)) continue;
+    for (const edge of repo.languages.edges) {
+      const name = edge.node.name;
+      const existing = langMap.get(name) || { size: 0, color: edge.node.color || '#6e7681' };
+      existing.size += edge.size;
+      langMap.set(name, existing);
+    }
+  }
+  langMap.delete('Jupyter Notebook');
 
-console.log(JSON.stringify(result, null, 2));
+  const totalSize = [...langMap.values()].reduce((s, l) => s + l.size, 0);
+  const languages = [...langMap.entries()]
+    .sort((a, b) => b[1].size - a[1].size)
+    .slice(0, 5)
+    .map(([name, { size, color }]) => ({
+      name,
+      color,
+      percentage: Math.round((size / totalSize) * 1000) / 10,
+    }));
+
+  // If top languages don't sum to 100%, add "Others"
+  const topSum = languages.reduce((s, l) => s + l.percentage, 0);
+  if (topSum < 100) {
+    languages.push({
+      name: 'Others',
+      color: '#6e7681',
+      percentage: Math.round((100 - topSum) * 10) / 10,
+    });
+  }
+
+  const commits = includePrivate ? contrib.totalCommitContributions + contrib.restrictedContributionsCount : contrib.totalCommitContributions;
+  const reviews = contrib.totalPullRequestReviewContributions;
+  const followers = user.followers.totalCount;
+
+  const rank = calculateRank({
+    commits,
+    prs: user.pullRequests.totalCount,
+    issues: user.issues.totalCount,
+    reviews,
+    stars: totalStars,
+    followers,
+  });
+
+  const currentYear = new Date().getUTCFullYear();
+
+  return {
+    totalStars,
+    commits,
+    prs: user.pullRequests.totalCount,
+    issues: user.issues.totalCount,
+    reviews,
+    followers,
+    contributedTo: user.repositoriesContributedTo.totalCount,
+    rank,
+    year: currentYear,
+    languages,
+  };
+}
+
+const from = new Date(Date.now() - 365 * 24 * 60 * 60 * 1000).toISOString();
+const to = new Date().toISOString();
+
+// Fetch all repos (no privacy filter)
+const dataAll = await graphql(buildStatsQuery(), { login: USERNAME, from, to });
+const resultAll = buildResult(dataAll);
+
+// Fetch public repos only
+const dataPublic = await graphql(buildStatsQuery('PUBLIC'), { login: USERNAME, from, to });
+const resultPublic = buildResult(dataPublic, { includePrivate: false });
+
+// Write results
+mkdirSync(resolve(rootDir, 'assets'), { recursive: true });
+writeFileSync(resolve(rootDir, 'assets/stats.json'), JSON.stringify(resultAll, null, 2));
+writeFileSync(resolve(rootDir, 'assets/stats-public.json'), JSON.stringify(resultPublic, null, 2));
+console.log('Wrote assets/stats.json and assets/stats-public.json');
