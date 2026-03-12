@@ -32,11 +32,15 @@ async function graphql(query, variables = {}) {
 function buildStatsQuery(privacy) {
   const privacyFilter = privacy ? `, privacy: ${privacy}` : '';
   return `
-query($login: String!, $from: DateTime!, $to: DateTime!) {
+query($login: String!, $from: DateTime!, $to: DateTime!, $cursor: String) {
   user(login: $login) {
     followers { totalCount }
-    repositories(first: 100, ownerAffiliations: OWNER${privacyFilter}, orderBy: {field: STARGAZERS, direction: DESC}) {
+    repositories(first: 100, after: $cursor, ownerAffiliations: OWNER${privacyFilter}, orderBy: {field: STARGAZERS, direction: DESC}) {
       totalCount
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
       nodes {
         name
         stargazerCount
@@ -61,6 +65,33 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
     repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, ISSUE, PULL_REQUEST]) { totalCount }
   }
 }`;
+}
+
+async function fetchAllRepos(privacy) {
+  let cursor = null;
+  let mergedData = null;
+  const allNodes = [];
+
+  while (true) {
+    const data = await graphql(buildStatsQuery(privacy), { login: USERNAME, from, to, cursor });
+    const repositories = data.user.repositories;
+    allNodes.push(...repositories.nodes);
+    if (!mergedData) {
+      mergedData = data;
+    }
+    if (!repositories.pageInfo.hasNextPage) {
+      break;
+    }
+    cursor = repositories.pageInfo.endCursor;
+  }
+
+  mergedData.user.repositories = {
+    ...mergedData.user.repositories,
+    nodes: allNodes,
+  };
+  console.log(`Fetched ${allNodes.length} repositories (privacy: ${privacy || 'ALL'})`);
+
+  return mergedData;
 }
 
 // --- Rank calculation ---
@@ -207,11 +238,11 @@ const from = new Date(Date.now() - 365 * 24 * 60 * 60 * 1000).toISOString();
 const to = new Date().toISOString();
 
 // Fetch all repos (no privacy filter)
-const dataAll = await graphql(buildStatsQuery(), { login: USERNAME, from, to });
+const dataAll = await fetchAllRepos();
 const resultAll = buildResult(dataAll);
 
 // Fetch public repos only
-const dataPublic = await graphql(buildStatsQuery('PUBLIC'), { login: USERNAME, from, to });
+const dataPublic = await fetchAllRepos('PUBLIC');
 const resultPublic = buildResult(dataPublic, { includePrivate: false });
 
 // Write results
