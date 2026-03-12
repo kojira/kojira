@@ -68,7 +68,7 @@ writeFileSync(resolve(rootDir, 'assets/stats.svg'), statsSvg);
 console.log('Updated assets/stats.svg');
 
 // --- Update top-langs.svg ---
-const BAR_MAX_WIDTH = 280;
+const BAR_MAX_WIDTH = 220;
 const barClasses = ['bar-ts', 'bar-rs', 'bar-py', 'bar-js', 'bar-ot'];
 
 let langsSvg = readFileSync(resolve(rootDir, 'templates/top-langs.svg'), 'utf-8');
@@ -91,8 +91,8 @@ const rows = langs.map((lang, i) => {
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
             font-size="12" font-weight="600" fill="#8b949e">${lang.percentage}%</text>
-      <rect x="110" y="-9" width="280" height="10" rx="5" fill="#21262d" />
-      <rect x="110" y="-9" width="${barWidth}" height="10" rx="5" fill="${lang.color}" class="${barClass}" opacity="0.9" />
+      <rect x="170" y="-9" width="220" height="10" rx="5" fill="#21262d" />
+      <rect x="170" y="-9" width="${barWidth}" height="10" rx="5" fill="${lang.color}" class="${barClass}" opacity="0.9" />
     </g>`;
 }).join('\n\n');
 
