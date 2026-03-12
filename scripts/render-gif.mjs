@@ -1,5 +1,6 @@
 import { chromium } from 'playwright';
 import GIFEncoder from 'gif-encoder-2';
+import sharp from 'sharp';
 import { readFileSync, writeFileSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
@@ -40,6 +41,12 @@ await page.setContent(html, { waitUntil: 'networkidle' });
 // Wait for animations to initialize
 await page.waitForTimeout(200);
 
+// Pause all animations and control them manually
+await page.evaluate(() => {
+  const animations = document.getAnimations();
+  animations.forEach(a => a.pause());
+});
+
 const FRAME_INTERVAL = 100;
 const DURATION = 4000;
 const FRAME_COUNT = DURATION / FRAME_INTERVAL;
@@ -53,22 +60,23 @@ encoder.start();
 console.log(`Capturing ${FRAME_COUNT} frames...`);
 
 for (let i = 0; i < FRAME_COUNT; i++) {
+  const currentTime = i * FRAME_INTERVAL;
+
+  // Set all animations to the current time
+  await page.evaluate((t) => {
+    const animations = document.getAnimations();
+    animations.forEach(a => { a.currentTime = t; });
+  }, currentTime);
+
   const buf = await page.screenshot({ type: 'png' });
-  const pixels = await page.evaluate(async (b64) => {
-    const img = new Image();
-    img.src = 'data:image/png;base64,' + b64;
-    await new Promise(r => { img.onload = r; });
-    const canvas = document.createElement('canvas');
-    canvas.width = img.width;
-    canvas.height = img.height;
-    const ctx = canvas.getContext('2d');
-    ctx.drawImage(img, 0, 0);
-    const data = ctx.getImageData(0, 0, img.width, img.height).data;
-    return Array.from(data);
-  }, buf.toString('base64'));
+
+  // Use sharp to convert PNG to raw RGBA pixels
+  const { data: pixels } = await sharp(buf)
+    .ensureAlpha()
+    .raw()
+    .toBuffer({ resolveWithObject: true });
 
   encoder.addFrame(pixels);
-  await page.waitForTimeout(FRAME_INTERVAL);
 
   if ((i + 1) % 10 === 0) console.log(`  frame ${i + 1}/${FRAME_COUNT}`);
 }

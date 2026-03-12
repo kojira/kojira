@@ -21,28 +21,28 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install playwright gif-encoder-2
+        run: npm install playwright gif-encoder-2 sharp
 
       - name: Install Playwright Chromium
         run: npx playwright install chromium
 
       - name: Fetch stats and update SVGs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           node scripts/fetch-stats.mjs > /tmp/stats.json
           node scripts/update-svgs.mjs /tmp/stats.json
 
       - name: Render animated GIFs
         run: |
-          node scripts/render-gif.mjs stats.svg assets/stats_realdata_new.gif
-          node scripts/render-gif.mjs top-langs.svg assets/top-langs-animated.gif
+          node scripts/render-gif.mjs assets/stats.svg assets/stats.gif
+          node scripts/render-gif.mjs assets/top-langs.svg assets/top-langs.gif
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/ stats.svg top-langs.svg
+          git add assets/
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "chore: update GitHub stats $(date -u +%Y-%m-%d)"
           git push

@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="200" viewBox="0 0 495 200">
+  <defs>
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#bd5eff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="rank-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff" />
+      <stop offset="100%" style="stop-color:#bd5eff" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-strong">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes glowPulse {
+        0%, 100% { filter: url(#glow); opacity: 1; }
+        50% { filter: url(#glow-strong); opacity: 0.9; }
+      }
+      @keyframes borderFlow {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -40; }
+      }
+      .stat-row { opacity: 1; }
+      .title { animation: glowPulse 3s ease-in-out infinite; }
+      .rank { opacity: 1; transform-origin: 420px 90px; }
+      .border-anim { animation: borderFlow 2s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="495" height="200" rx="10" ry="10" fill="#0d1117" />
+
+  <!-- Animated gradient border -->
+  <rect x="1" y="1" width="493" height="198" rx="10" ry="10"
+        fill="none" stroke="url(#border-grad)" stroke-width="2"
+        stroke-dasharray="10 5" class="border-anim" />
+
+  <!-- Inner subtle border -->
+  <rect x="3" y="3" width="489" height="194" rx="8" ry="8"
+        fill="none" stroke="#21262d" stroke-width="1" />
+
+  <!-- Title -->
+  <text x="25" y="35" class="title"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="16" font-weight="700" fill="#00d4ff" filter="url(#glow)">
+    kojira's GitHub Stats
+  </text>
+
+  <!-- Rank circle (right side) -->
+  <g class="rank">
+    <circle cx="420" cy="90" r="38" fill="none" stroke="url(#rank-grad)" stroke-width="3" filter="url(#glow)" />
+    <circle cx="420" cy="90" r="30" fill="none" stroke="#21262d" stroke-width="1" />
+    <text x="420" y="85" text-anchor="middle" dominant-baseline="central"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+          font-size="28" font-weight="800" fill="url(#rank-grad)" filter="url(#glow)">A</text>
+    <text x="420" y="108" text-anchor="middle"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+          font-size="10" fill="#8b949e">
+      rank
+    </text>
+  </g>
+
+  <!-- Stats -->
+  <g transform="translate(25, 55)">
+    <!-- Stars -->
+    <g transform="translate(0, 12)">
+    <g class="stat-row row1">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#f0c040">&#9733;</text>
+      <text x="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#c9d1d9">Total Stars:</text>
+      <text x="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="13" font-weight="700" fill="#00d4ff">68</text>
+    </g>
+    </g>
+
+    <!-- Commits -->
+    <g transform="translate(0, 38)">
+    <g class="stat-row row2">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#8b949e">&#128221;</text>
+      <text x="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#c9d1d9">Commits (2026):</text>
+      <text x="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="13" font-weight="700" fill="#00d4ff">696</text>
+    </g>
+    </g>
+
+    <!-- PRs -->
+    <g transform="translate(0, 64)">
+    <g class="stat-row row3">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#bd5eff">&#128256;</text>
+      <text x="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#c9d1d9">PRs:</text>
+      <text x="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="13" font-weight="700" fill="#00d4ff">283</text>
+    </g>
+    </g>
+
+    <!-- Issues -->
+    <g transform="translate(0, 90)">
+    <g class="stat-row row4">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#3fb950">&#128027;</text>
+      <text x="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#c9d1d9">Issues:</text>
+      <text x="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="13" font-weight="700" fill="#00d4ff">208</text>
+    </g>
+    </g>
+
+    <!-- Contributed to -->
+    <g transform="translate(0, 116)">
+    <g class="stat-row row5">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#f78166">&#128230;</text>
+      <text x="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#c9d1d9">Contributed to:</text>
+      <text x="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="13" font-weight="700" fill="#00d4ff">20 repos</text>
+    </g>
+    </g>
+  </g>
+</svg>

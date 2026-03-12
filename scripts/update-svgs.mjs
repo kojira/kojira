@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -16,6 +16,9 @@ const stats = JSON.parse(readFileSync(resolve(jsonPath), 'utf-8'));
 function formatNumber(n) {
   return n >= 1000 ? n.toLocaleString('en-US') : String(n);
 }
+
+// Ensure assets directory exists
+mkdirSync(resolve(rootDir, 'assets'), { recursive: true });
 
 // --- Update stats.svg ---
 let statsSvg = readFileSync(resolve(rootDir, 'templates/stats.svg'), 'utf-8');
@@ -55,8 +58,14 @@ statsSvg = statsSvg.replace(
   `$1${formatNumber(stats.contributedTo)} repos$2`
 );
 
-writeFileSync(resolve(rootDir, 'stats.svg'), statsSvg);
-console.log('Updated stats.svg');
+// Replace rank level (A+ text in the rank circle)
+statsSvg = statsSvg.replace(
+  /(<text x="420" y="85" text-anchor="middle" dominant-baseline="central"[^>]*>)\s*A\+\s*(<\/text>)/,
+  `$1${stats.rank.level}$2`
+);
+
+writeFileSync(resolve(rootDir, 'assets/stats.svg'), statsSvg);
+console.log('Updated assets/stats.svg');
 
 // --- Update top-langs.svg ---
 const BAR_MAX_WIDTH = 280;
@@ -106,5 +115,5 @@ langsSvg = langsSvg.replace(
   `<!-- Language rows -->\n  <g transform="translate(25, 48)">\n\n${rows}\n\n  </g>\n</svg>`
 );
 
-writeFileSync(resolve(rootDir, 'top-langs.svg'), langsSvg);
-console.log('Updated top-langs.svg');
+writeFileSync(resolve(rootDir, 'assets/top-langs.svg'), langsSvg);
+console.log('Updated assets/top-langs.svg');
