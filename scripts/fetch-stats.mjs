@@ -73,11 +73,12 @@ for (const repo of user.repositories.nodes) {
     langMap.set(name, existing);
   }
 }
+langMap.delete('Jupyter Notebook');
 
 const totalSize = [...langMap.values()].reduce((s, l) => s + l.size, 0);
 const languages = [...langMap.entries()]
   .sort((a, b) => b[1].size - a[1].size)
-  .slice(0, 5)
+  .slice(0, 4)
   .map(([name, { size, color }]) => ({
     name,
     color,
