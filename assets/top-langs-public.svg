@@ -48,28 +48,28 @@
   <!-- Language rows -->
   <g transform="translate(25, 48)">
 
-    <!-- Python -->
-    <g class="lang-row" transform="translate(0, 12)">
-      <circle cx="6" cy="-3" r="5" fill="#3572A5" />
-      <text x="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" fill="#c9d1d9">Python</text>
-      <text x="435" text-anchor="end"
-            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">41.8% (53.9MB)</text>
-      <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
-      <rect x="170" y="-9" width="62.7" height="10" rx="5" fill="#3572A5" class="bar-ts" opacity="0.9" />
-    </g>
-
     <!-- TypeScript -->
-    <g class="lang-row" transform="translate(0, 36)">
+    <g class="lang-row" transform="translate(0, 12)">
       <circle cx="6" cy="-3" r="5" fill="#3178c6" />
       <text x="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
             font-size="12" fill="#c9d1d9">TypeScript</text>
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">31.6% (40.8MB)</text>
+            font-size="12" font-weight="600" fill="#8b949e">39.9% (59.4MB)</text>
       <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
-      <rect x="170" y="-9" width="47.4" height="10" rx="5" fill="#3178c6" class="bar-rs" opacity="0.9" />
+      <rect x="170" y="-9" width="59.9" height="10" rx="5" fill="#3178c6" class="bar-ts" opacity="0.9" />
+    </g>
+
+    <!-- Python -->
+    <g class="lang-row" transform="translate(0, 36)">
+      <circle cx="6" cy="-3" r="5" fill="#3572A5" />
+      <text x="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#c9d1d9">Python</text>
+      <text x="435" text-anchor="end"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            font-size="12" font-weight="600" fill="#8b949e">36.2% (53.9MB)</text>
+      <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
+      <rect x="170" y="-9" width="54.3" height="10" rx="5" fill="#3572A5" class="bar-rs" opacity="0.9" />
     </g>
 
     <!-- C++ -->
@@ -79,9 +79,9 @@
             font-size="12" fill="#c9d1d9">C++</text>
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">10.5% (13.5MB)</text>
+            font-size="12" font-weight="600" fill="#8b949e">9.1% (13.5MB)</text>
       <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
-      <rect x="170" y="-9" width="15.8" height="10" rx="5" fill="#f34b7d" class="bar-py" opacity="0.9" />
+      <rect x="170" y="-9" width="13.7" height="10" rx="5" fill="#f34b7d" class="bar-py" opacity="0.9" />
     </g>
 
     <!-- Rust -->
@@ -91,9 +91,9 @@
             font-size="12" fill="#c9d1d9">Rust</text>
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">3.8% (4.9MB)</text>
+            font-size="12" font-weight="600" fill="#8b949e">3.3% (5.0MB)</text>
       <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
-      <rect x="170" y="-9" width="5.7" height="10" rx="5" fill="#dea584" class="bar-js" opacity="0.9" />
+      <rect x="170" y="-9" width="5" height="10" rx="5" fill="#dea584" class="bar-js" opacity="0.9" />
     </g>
 
     <!-- Kotlin -->
@@ -103,9 +103,9 @@
             font-size="12" fill="#c9d1d9">Kotlin</text>
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">2.8% (3.6MB)</text>
+            font-size="12" font-weight="600" fill="#8b949e">2.5% (3.8MB)</text>
       <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
-      <rect x="170" y="-9" width="4.2" height="10" rx="5" fill="#A97BFF" class="bar-ot" opacity="0.9" />
+      <rect x="170" y="-9" width="3.8" height="10" rx="5" fill="#A97BFF" class="bar-ot" opacity="0.9" />
     </g>
 
   </g>
