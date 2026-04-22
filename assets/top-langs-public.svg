@@ -55,9 +55,9 @@
             font-size="12" fill="#c9d1d9">TypeScript</text>
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">39.8% (59.4MB)</text>
+            font-size="12" font-weight="600" fill="#8b949e">40% (60.1MB)</text>
       <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
-      <rect x="170" y="-9" width="59.7" height="10" rx="5" fill="#3178c6" class="bar-ts" opacity="0.9" />
+      <rect x="170" y="-9" width="60" height="10" rx="5" fill="#3178c6" class="bar-ts" opacity="0.9" />
     </g>
 
     <!-- Python -->
@@ -67,9 +67,9 @@
             font-size="12" fill="#c9d1d9">Python</text>
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">36.1% (53.9MB)</text>
+            font-size="12" font-weight="600" fill="#8b949e">35.9% (53.9MB)</text>
       <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
-      <rect x="170" y="-9" width="54.2" height="10" rx="5" fill="#3572A5" class="bar-rs" opacity="0.9" />
+      <rect x="170" y="-9" width="53.9" height="10" rx="5" fill="#3572A5" class="bar-rs" opacity="0.9" />
     </g>
 
     <!-- C++ -->
@@ -79,9 +79,9 @@
             font-size="12" fill="#c9d1d9">C++</text>
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">9.1% (13.5MB)</text>
+            font-size="12" font-weight="600" fill="#8b949e">9% (13.5MB)</text>
       <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
-      <rect x="170" y="-9" width="13.7" height="10" rx="5" fill="#f34b7d" class="bar-py" opacity="0.9" />
+      <rect x="170" y="-9" width="13.5" height="10" rx="5" fill="#f34b7d" class="bar-py" opacity="0.9" />
     </g>
 
     <!-- Rust -->
