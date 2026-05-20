@@ -67,9 +67,9 @@
             font-size="12" fill="#c9d1d9">Python</text>
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">33.4% (57.0MB)</text>
+            font-size="12" font-weight="600" fill="#8b949e">33.3% (57.0MB)</text>
       <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
-      <rect x="170" y="-9" width="50.1" height="10" rx="5" fill="#3572A5" class="bar-rs" opacity="0.9" />
+      <rect x="170" y="-9" width="49.9" height="10" rx="5" fill="#3572A5" class="bar-rs" opacity="0.9" />
     </g>
 
     <!-- C++ -->
