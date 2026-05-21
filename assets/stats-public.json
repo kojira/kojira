@@ -1,6 +1,6 @@
 {
   "totalStars": 64,
-  "commits": 1533,
+  "commits": 1540,
   "prs": 341,
   "issues": 216,
   "reviews": 0,
@@ -8,7 +8,7 @@
   "contributedTo": 28,
   "rank": {
     "level": "A",
-    "score": 0.7753176622253667
+    "score": 0.7753633403962402
   },
   "year": 2026,
   "languages": [
@@ -22,7 +22,7 @@
       "name": "Python",
       "color": "#3572A5",
       "bytes": 53927960,
-      "percentage": 35.4
+      "percentage": 35.3
     },
     {
       "name": "C++",
@@ -45,8 +45,8 @@
     {
       "name": "Others",
       "color": "#6e7681",
-      "bytes": 14740718,
-      "percentage": 9.6
+      "bytes": 14767726,
+      "percentage": 9.7
     }
   ]
 }
