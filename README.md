@@ -14,6 +14,12 @@
 Last Updated on 6/18/2026, 12:55:14 AM</p>
 <!--END_SECTION:lapras-card-->
 
+## 🗂 プロジェクト年表 / Projects timeline
+
+公開リポジトリ（Nostr / Bluesky のサービスやツールなど）を作成日順にまとめたポートフォリオ：
+
+### 👉 **https://kojira.github.io/**
+
 ## 過去の活動
 
 - 1995/08〜1998/04 居酒屋の風来坊で接客、調理。調理師免許取る一歩手前までいって取らず。
