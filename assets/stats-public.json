@@ -1,14 +1,14 @@
 {
   "totalStars": 74,
-  "commits": 2513,
-  "prs": 573,
-  "issues": 324,
+  "commits": 2564,
+  "prs": 590,
+  "issues": 350,
   "reviews": 0,
   "followers": 69,
   "contributedTo": 32,
   "rank": {
     "level": "A",
-    "score": 0.7983468265982823
+    "score": 0.7983915330797461
   },
   "year": 2026,
   "languages": [
@@ -45,7 +45,7 @@
     {
       "name": "Others",
       "color": "#6e7681",
-      "bytes": 16350836,
+      "bytes": 16350418,
       "percentage": 7.7
     }
   ]
