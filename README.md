@@ -80,7 +80,7 @@ Last Updated on 7/9/2026, 12:38:45 AM</p>
 - 2019/06/13 interop 2019 APPS JAPANでブロックチェーン技術について講演
 - 2019/08/01 四谷ラボを設立
 - 2023/02/22 [世界初のNostr勉強会](https://428lab.connpass.com/event/275748/)を開催
-- 2023/04/07 [世界初のBluesky meetup](https://428lab.connpass.com/event/279572/)を開催
+- 2023/04/07 [世界初の公式Bluesky meetup](https://428lab.connpass.com/event/279572/)を開催
 - 2023/05/21 技術書典 2023に世界初のNostrの技術本「[Hello Nostr! 先住民が教えるNostrの歩き方](https://techbookfest.org/product/veGeNq1tNkYFfWnZWgEC72?productVariantID=u5RZNM5e77xHH97c65PCx9)」を出展。
 - 2023/06/14 interop 2023 APPS JAPANで分散SNSについて講演
 - 2023/07/07 Nostr創始者のfiatjafよりNostrへの貢献が認められて[500万satoshiをもらう](https://yakihonne.com/article/naddr1qqyxvepkv33nxdmrqyf8wumn8ghj7ur4wfcxcetsv9njuetnqyxhwumn8ghj7mn0wvhxcmmvqy08wumn8ghj7mn0wd68yttjv4kxz7fwdehkkmm5v9ex7tnrdakszynhwden5te0danxvcmgv95kutnsw43qz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcpzpmhxue69uhkummnw3ezuamfdejsygpm7rrrljungc6q0tuh5hj7ue863q73qlheu4vywtzwhx42a7j9n5psgqqqw4rs046wal)
@@ -102,3 +102,8 @@ Last Updated on 7/9/2026, 12:38:45 AM</p>
 - 2026/01/15 [AIプロトコル勉強会 No.2](https://428lab.connpass.com/event/380108/)の運営、登壇
 - 2026/01/31 [バイブコーディング大会 No.1](https://428lab.connpass.com/event/382139/)の運営、司会
 - 2026/03/01 [bitchatで都内ロングレンジ通信やってみる会](https://428lab.connpass.com/event/384566/)の企画、運営
+- 2026/04/18 Bluesky公式の[Bluesky Hackathon in Tokyo Vol.1](https://428lab.connpass.com/event/387583/)の企画、司会、運営
+- 2026/05/30 [四谷ラボ ハッカソン No.1](https://428lab.connpass.com/event/394465/)の企画、司会、運営
+- 2026/06/11 interop 2026 AI Native Expo:[自律型AIエージェントは何を破壊するのか？](https://forest.f2ff.jp/introduction/12595?project_id=20260601)で登壇
+- 2026/06/11 interop 2026 AI Native Expo:[AIエージェント経済は始まるのか？── 人間がAPIになる時代の仕事と市場](https://forest.f2ff.jp/introduction/12597?project_id=20260601)で登壇
+- 2026/06/13 Bluesky公式の[Bluesky Meetup in Osaka vol.4](https://428lab.connpass.com/event/392907/)で登壇
