@@ -11,6 +11,8 @@
 Last Updated on 7/13/2026, 12:36:14 AM</p>
 <!--END_SECTION:lapras-card-->
 
+[![でばっぐ神社](https://d-shrine.jp/badgeGo?user=kojira)](https://d-shrine.jp/u/kojira)
+
 ## 🗂 プロジェクト年表 / Projects timeline
 
 公開リポジトリ（Nostr / Bluesky のサービスやツールなど）を作成日順にまとめたポートフォリオ：
