@@ -1,14 +1,14 @@
 {
   "totalStars": 77,
-  "commits": 4146,
-  "prs": 1949,
-  "issues": 1494,
+  "commits": 4161,
+  "prs": 1979,
+  "issues": 1589,
   "reviews": 9,
   "followers": 72,
   "contributedTo": 42,
   "rank": {
     "level": "A++",
-    "score": 0.8833166676570037
+    "score": 0.8833167367677205
   },
   "year": 2026,
   "languages": [
@@ -28,25 +28,25 @@
       "name": "C++",
       "color": "#f34b7d",
       "bytes": 13528605,
-      "percentage": 6.3
+      "percentage": 6.2
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "bytes": 11309868,
-      "percentage": 5.2
+      "bytes": 11535384,
+      "percentage": 5.3
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
       "bytes": 3788704,
-      "percentage": 1.8
+      "percentage": 1.7
     },
     {
       "name": "Others",
       "color": "#6e7681",
-      "bytes": 16511530,
-      "percentage": 7.6
+      "bytes": 16515281,
+      "percentage": 7.7
     }
   ]
 }
