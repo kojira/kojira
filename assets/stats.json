@@ -1,14 +1,14 @@
 {
   "totalStars": 83,
-  "commits": 11892,
-  "prs": 1981,
-  "issues": 1599,
+  "commits": 11954,
+  "prs": 2008,
+  "issues": 1633,
   "reviews": 9,
   "followers": 72,
   "contributedTo": 42,
   "rank": {
     "level": "A++",
-    "score": 0.8922545034822917
+    "score": 0.8922545034823842
   },
   "year": 2026,
   "languages": [
@@ -21,8 +21,8 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 69882921,
-      "percentage": 29.5
+      "bytes": 69890532,
+      "percentage": 29.4
     },
     {
       "name": "C++",
@@ -33,8 +33,8 @@
     {
       "name": "Rust",
       "color": "#dea584",
-      "bytes": 13273830,
-      "percentage": 5.6
+      "bytes": 13414391,
+      "percentage": 5.7
     },
     {
       "name": "Kotlin",
@@ -45,7 +45,7 @@
     {
       "name": "Others",
       "color": "#6e7681",
-      "bytes": 19234645,
+      "bytes": 19327789,
       "percentage": 8.1
     }
   ]
