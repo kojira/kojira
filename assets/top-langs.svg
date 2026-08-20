@@ -67,9 +67,9 @@
             font-size="12" fill="#c9d1d9">TypeScript</text>
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">29.4% (69.9MB)</text>
+            font-size="12" font-weight="600" fill="#8b949e">29.5% (70.3MB)</text>
       <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
-      <rect x="170" y="-9" width="44.1" height="10" rx="5" fill="#3178c6" class="bar-rs" opacity="0.9" />
+      <rect x="170" y="-9" width="44.3" height="10" rx="5" fill="#3178c6" class="bar-rs" opacity="0.9" />
     </g>
 
     <!-- C++ -->
@@ -103,9 +103,9 @@
             font-size="12" fill="#c9d1d9">JavaScript</text>
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">1.8% (4.2MB)</text>
+            font-size="12" font-weight="600" fill="#8b949e">1.7% (4.1MB)</text>
       <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
-      <rect x="170" y="-9" width="2.7" height="10" rx="5" fill="#f1e05a" class="bar-ot" opacity="0.9" />
+      <rect x="170" y="-9" width="2.6" height="10" rx="5" fill="#f1e05a" class="bar-ot" opacity="0.9" />
     </g>
 
   </g>
