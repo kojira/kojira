@@ -55,9 +55,9 @@
             font-size="12" fill="#c9d1d9">Python</text>
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">43.9% (104.9MB)</text>
+            font-size="12" font-weight="600" fill="#8b949e">45% (104.9MB)</text>
       <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
-      <rect x="170" y="-9" width="65.9" height="10" rx="5" fill="#3572A5" class="bar-ts" opacity="0.9" />
+      <rect x="170" y="-9" width="67.5" height="10" rx="5" fill="#3572A5" class="bar-ts" opacity="0.9" />
     </g>
 
     <!-- TypeScript -->
@@ -67,9 +67,9 @@
             font-size="12" fill="#c9d1d9">TypeScript</text>
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">29.5% (70.4MB)</text>
+            font-size="12" font-weight="600" fill="#8b949e">30.2% (70.4MB)</text>
       <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
-      <rect x="170" y="-9" width="44.3" height="10" rx="5" fill="#3178c6" class="bar-rs" opacity="0.9" />
+      <rect x="170" y="-9" width="45.3" height="10" rx="5" fill="#3178c6" class="bar-rs" opacity="0.9" />
     </g>
 
     <!-- C++ -->
@@ -79,9 +79,9 @@
             font-size="12" fill="#c9d1d9">C++</text>
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">10.9% (26.1MB)</text>
+            font-size="12" font-weight="600" fill="#8b949e">11.2% (26.1MB)</text>
       <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
-      <rect x="170" y="-9" width="16.4" height="10" rx="5" fill="#f34b7d" class="bar-py" opacity="0.9" />
+      <rect x="170" y="-9" width="16.8" height="10" rx="5" fill="#f34b7d" class="bar-py" opacity="0.9" />
     </g>
 
     <!-- Rust -->
@@ -91,9 +91,9 @@
             font-size="12" fill="#c9d1d9">Rust</text>
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">5.7% (13.6MB)</text>
+            font-size="12" font-weight="600" fill="#8b949e">3.4% (7.9MB)</text>
       <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
-      <rect x="170" y="-9" width="8.6" height="10" rx="5" fill="#dea584" class="bar-js" opacity="0.9" />
+      <rect x="170" y="-9" width="5.1" height="10" rx="5" fill="#dea584" class="bar-js" opacity="0.9" />
     </g>
 
     <!-- JavaScript -->
@@ -103,9 +103,9 @@
             font-size="12" fill="#c9d1d9">JavaScript</text>
       <text x="435" text-anchor="end"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-            font-size="12" font-weight="600" fill="#8b949e">1.7% (4.2MB)</text>
+            font-size="12" font-weight="600" fill="#8b949e">1.8% (4.2MB)</text>
       <rect x="170" y="-9" width="150" height="10" rx="5" fill="#21262d" />
-      <rect x="170" y="-9" width="2.6" height="10" rx="5" fill="#f1e05a" class="bar-ot" opacity="0.9" />
+      <rect x="170" y="-9" width="2.7" height="10" rx="5" fill="#f1e05a" class="bar-ot" opacity="0.9" />
     </g>
 
   </g>
