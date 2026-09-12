@@ -1,8 +1,8 @@
 {
   "totalStars": 84,
-  "commits": 13874,
-  "prs": 2560,
-  "issues": 2310,
+  "commits": 13948,
+  "prs": 2591,
+  "issues": 2332,
   "reviews": 31,
   "followers": 73,
   "contributedTo": 46,
@@ -21,7 +21,7 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 81989737,
+      "bytes": 82035042,
       "percentage": 32.4
     },
     {
@@ -33,7 +33,7 @@
     {
       "name": "Rust",
       "color": "#dea584",
-      "bytes": 15395631,
+      "bytes": 15358312,
       "percentage": 6.1
     },
     {
