@@ -1,7 +1,7 @@
 {
   "totalStars": 84,
-  "commits": 14355,
-  "prs": 2706,
+  "commits": 14373,
+  "prs": 2708,
   "issues": 2380,
   "reviews": 34,
   "followers": 73,
@@ -21,7 +21,7 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 92714488,
+      "bytes": 92726188,
       "percentage": 35.2
     },
     {
