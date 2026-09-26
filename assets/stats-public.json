@@ -1,8 +1,8 @@
 {
   "totalStars": 79,
   "commits": 5101,
-  "prs": 2759,
-  "issues": 2391,
+  "prs": 2771,
+  "issues": 2401,
   "reviews": 34,
   "followers": 73,
   "contributedTo": 50,
@@ -16,13 +16,13 @@
       "name": "Python",
       "color": "#3572A5",
       "bytes": 101876801,
-      "percentage": 41.9
+      "percentage": 41.8
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 92362057,
-      "percentage": 37.9
+      "bytes": 92403484,
+      "percentage": 38
     },
     {
       "name": "C++",
