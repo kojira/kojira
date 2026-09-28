@@ -1,40 +1,40 @@
 {
   "totalStars": 79,
-  "commits": 5117,
-  "prs": 2799,
-  "issues": 2403,
+  "commits": 5299,
+  "prs": 2826,
+  "issues": 2424,
   "reviews": 38,
   "followers": 73,
   "contributedTo": 50,
   "rank": {
     "level": "A++",
-    "score": 0.8901543738186967
+    "score": 0.8901544193538401
   },
   "year": 2026,
   "languages": [
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 101876801,
+      "bytes": 101963254,
       "percentage": 41.8
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
       "bytes": 92406240,
-      "percentage": 38
+      "percentage": 37.9
+    },
+    {
+      "name": "Rust",
+      "color": "#dea584",
+      "bytes": 13550732,
+      "percentage": 5.6
     },
     {
       "name": "C++",
       "color": "#f34b7d",
       "bytes": 13528605,
-      "percentage": 5.6
-    },
-    {
-      "name": "Rust",
-      "color": "#dea584",
-      "bytes": 13162963,
-      "percentage": 5.4
+      "percentage": 5.5
     },
     {
       "name": "JavaScript",
