@@ -1,8 +1,8 @@
 {
   "totalStars": 85,
-  "commits": 15607,
-  "prs": 3000,
-  "issues": 2523,
+  "commits": 15611,
+  "prs": 3014,
+  "issues": 2525,
   "reviews": 38,
   "followers": 73,
   "contributedTo": 51,
@@ -15,14 +15,14 @@
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 105110847,
-      "percentage": 38.9
+      "bytes": 105121203,
+      "percentage": 38.8
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 93279479,
-      "percentage": 34.5
+      "bytes": 93832081,
+      "percentage": 34.6
     },
     {
       "name": "C++",
@@ -39,14 +39,14 @@
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 5440212,
-      "percentage": 2
+      "bytes": 5568836,
+      "percentage": 2.1
     },
     {
       "name": "Others",
       "color": "#6e7681",
-      "bytes": 21063526,
-      "percentage": 7.9
+      "bytes": 21208657,
+      "percentage": 7.8
     }
   ]
 }
