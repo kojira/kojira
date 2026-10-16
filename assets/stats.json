@@ -1,8 +1,8 @@
 {
   "totalStars": 88,
-  "commits": 16047,
-  "prs": 3100,
-  "issues": 2568,
+  "commits": 16106,
+  "prs": 3121,
+  "issues": 2572,
   "reviews": 38,
   "followers": 74,
   "contributedTo": 58,
@@ -15,38 +15,38 @@
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 105279599,
-      "percentage": 38.9
+      "bytes": 105288966,
+      "percentage": 38.5
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 93352895,
-      "percentage": 34.5
+      "bytes": 96412991,
+      "percentage": 35.2
     },
     {
       "name": "C++",
       "color": "#f34b7d",
       "bytes": 26159306,
-      "percentage": 9.7
+      "percentage": 9.6
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "bytes": 19094415,
-      "percentage": 7.1
+      "bytes": 19095449,
+      "percentage": 7
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 5493972,
+      "bytes": 5521956,
       "percentage": 2
     },
     {
       "name": "Others",
       "color": "#6e7681",
-      "bytes": 21190523,
-      "percentage": 7.8
+      "bytes": 21215719,
+      "percentage": 7.7
     }
   ]
 }
