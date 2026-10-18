@@ -1,14 +1,14 @@
 {
   "totalStars": 83,
-  "commits": 5685,
-  "prs": 3143,
-  "issues": 2583,
+  "commits": 5699,
+  "prs": 3154,
+  "issues": 2593,
   "reviews": 38,
   "followers": 74,
   "contributedTo": 57,
   "rank": {
     "level": "A++",
-    "score": 0.8960634953588672
+    "score": 0.8960634962646804
   },
   "year": 2026,
   "languages": [
@@ -27,7 +27,7 @@
     {
       "name": "Rust",
       "color": "#dea584",
-      "bytes": 17333679,
+      "bytes": 17430534,
       "percentage": 6.9
     },
     {
@@ -45,7 +45,7 @@
     {
       "name": "Others",
       "color": "#6e7681",
-      "bytes": 18740088,
+      "bytes": 18740732,
       "percentage": 7.4
     }
   ]
