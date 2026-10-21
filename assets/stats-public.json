@@ -1,21 +1,21 @@
 {
   "totalStars": 83,
-  "commits": 5641,
-  "prs": 3183,
+  "commits": 5618,
+  "prs": 3205,
   "issues": 2594,
   "reviews": 38,
   "followers": 74,
   "contributedTo": 56,
   "rank": {
     "level": "A++",
-    "score": 0.8960634922719523
+    "score": 0.8960634905020788
   },
   "year": 2026,
   "languages": [
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 102029890,
+      "bytes": 102030152,
       "percentage": 40.3
     },
     {
@@ -27,8 +27,8 @@
     {
       "name": "Rust",
       "color": "#dea584",
-      "bytes": 17508203,
-      "percentage": 6.9
+      "bytes": 17653319,
+      "percentage": 7
     },
     {
       "name": "C++",
@@ -45,8 +45,8 @@
     {
       "name": "Others",
       "color": "#6e7681",
-      "bytes": 18745320,
-      "percentage": 7.5
+      "bytes": 18745456,
+      "percentage": 7.4
     }
   ]
 }
