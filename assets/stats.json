@@ -1,8 +1,8 @@
 {
   "totalStars": 88,
-  "commits": 16291,
-  "prs": 3205,
-  "issues": 2594,
+  "commits": 16288,
+  "prs": 3224,
+  "issues": 2597,
   "reviews": 38,
   "followers": 74,
   "contributedTo": 56,
@@ -39,13 +39,13 @@
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 5565390,
+      "bytes": 5584319,
       "percentage": 2
     },
     {
       "name": "Others",
       "color": "#6e7681",
-      "bytes": 21221554,
+      "bytes": 21225320,
       "percentage": 7.8
     }
   ]
