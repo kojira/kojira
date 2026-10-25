@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-scripts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.23.4'
+          cache: npm
+      - name: Verify Node runtime
+        run: node --version
+      # No browser download or credentialed stats/image update in PR validation.
+      - run: npm ci --ignore-scripts
+      - name: Check existing script syntax
+        run: |
+          node --check scripts/fetch-stats.mjs
+          node --check scripts/update-svgs.mjs
+          node --check scripts/render-gif.mjs
+      - name: Verify rendering dependencies on Node 22
+        run: |
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          import { chromium } from 'playwright';
+          import GIFEncoder from 'gif-encoder-2';
+          import sharp from 'sharp';
+          assert.equal(typeof chromium.launch, 'function');
+          const png = await sharp({ create: { width: 1, height: 1, channels: 4, background: '#000000' } }).png().toBuffer();
+          assert.equal((await sharp(png).metadata()).format, 'png');
+          const gif = new GIFEncoder(1, 1);
+          gif.start();
+          gif.addFrame(new Uint8ClampedArray([0, 0, 0, 255]));
+          gif.finish();
+          assert.ok(gif.out.getData().subarray(0, 3).equals(Buffer.from('GIF')));
+          NODE
