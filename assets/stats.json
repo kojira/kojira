@@ -1,11 +1,11 @@
 {
   "totalStars": 88,
-  "commits": 17007,
-  "prs": 3316,
-  "issues": 2617,
+  "commits": 16937,
+  "prs": 3323,
+  "issues": 2618,
   "reviews": 50,
   "followers": 74,
-  "contributedTo": 62,
+  "contributedTo": 64,
   "rank": {
     "level": "S",
     "score": 0.9028007630351039
@@ -16,12 +16,12 @@
       "name": "Python",
       "color": "#3572A5",
       "bytes": 105303984,
-      "percentage": 38.4
+      "percentage": 38.3
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 96638012,
+      "bytes": 96702591,
       "percentage": 35.2
     },
     {
@@ -46,7 +46,7 @@
       "name": "Others",
       "color": "#6e7681",
       "bytes": 21335919,
-      "percentage": 7.8
+      "percentage": 7.9
     }
   ]
 }
