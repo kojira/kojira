@@ -1,11 +1,11 @@
 {
   "totalStars": 84,
   "commits": 6497,
-  "prs": 3580,
-  "issues": 2807,
+  "prs": 3587,
+  "issues": 2817,
   "reviews": 50,
   "followers": 75,
-  "contributedTo": 67,
+  "contributedTo": 68,
   "rank": {
     "level": "A++",
     "score": 0.8975194629717839
@@ -21,7 +21,7 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 97001149,
+      "bytes": 97001312,
       "percentage": 38.1
     },
     {
