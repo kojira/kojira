@@ -1,8 +1,8 @@
 {
   "totalStars": 89,
-  "commits": 21064,
-  "prs": 3976,
-  "issues": 2916,
+  "commits": 21213,
+  "prs": 3997,
+  "issues": 2918,
   "reviews": 50,
   "followers": 74,
   "contributedTo": 72,
@@ -21,14 +21,14 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 98095699,
-      "percentage": 35.5
+      "bytes": 98180005,
+      "percentage": 35.4
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "bytes": 26645344,
-      "percentage": 9.6
+      "bytes": 26754980,
+      "percentage": 9.7
     },
     {
       "name": "Rust",
@@ -39,14 +39,14 @@
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 5909591,
-      "percentage": 2.1
+      "bytes": 6024512,
+      "percentage": 2.2
     },
     {
       "name": "Others",
       "color": "#6e7681",
-      "bytes": 21791126,
-      "percentage": 7.9
+      "bytes": 21806194,
+      "percentage": 7.8
     }
   ]
 }
